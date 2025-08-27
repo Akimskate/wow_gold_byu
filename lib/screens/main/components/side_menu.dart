@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:wow_goldbuy_v3/constants.dart';
-import 'package:wow_goldbuy_v3/screens/main/main_screen.dart';
+import 'package:wow_gold_buy_v3/constants.dart';
+import 'package:wow_gold_buy_v3/screens/main/main_screen.dart';
 
 class SideMenu extends StatelessWidget {
-  const SideMenu({Key? key}) : super(key: key);
+  const SideMenu({super.key});
 
   
 

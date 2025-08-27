@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:wow_goldbuy_v3/constants.dart';
-import 'package:wow_goldbuy_v3/responcive_design.dart';
+import 'package:wow_gold_buy_v3/constants.dart';
+import 'package:wow_gold_buy_v3/responsive_design.dart';
 
 List<String> imagePaths = [
   'images/gryphon.jpg',
@@ -10,7 +10,7 @@ List<String> imagePaths = [
 ];
 
 class DescriptionSection extends StatelessWidget {
-  const DescriptionSection({Key? key}) : super(key: key);
+  const DescriptionSection({super.key});
 
   @override
   Widget build(BuildContext context) {

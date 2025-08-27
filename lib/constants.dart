@@ -8,7 +8,7 @@ const defaultPadding = 20.0;
 const maxWidth = 1440.0;
 const defaultMargin = 10.0;
 
-final srversEU = [
+final serversEU = [
   'Amnennar',
   'Ashbringer',
   'Bloodfang',
@@ -63,7 +63,7 @@ List descriptionWidgets = [
 ];
 
 class FirstWidget extends StatelessWidget {
-  const FirstWidget({Key? key}) : super(key: key);
+  const FirstWidget({super.key});
 
   @override
   Widget build(BuildContext context) {

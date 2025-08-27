@@ -2,13 +2,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:wow_goldbuy_v3/constants.dart';
-import 'package:wow_goldbuy_v3/screens/main/main_screen.dart';
+import 'package:wow_gold_buy_v3/constants.dart';
+import 'package:wow_gold_buy_v3/screens/main/main_screen.dart';
 
 class TopBarWidget extends StatelessWidget {
   const TopBarWidget({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   
 
@@ -27,10 +27,10 @@ class TopBarWidget extends StatelessWidget {
               alignment: Alignment.center,
               child: TextButton.icon(
                 style: ButtonStyle(
-                  padding: MaterialStateProperty.all(EdgeInsets.all(15)),
-                  overlayColor: MaterialStateProperty.all(
+                  padding: WidgetStateProperty.all(EdgeInsets.all(15)),
+                  overlayColor: WidgetStateProperty.all(
                       Color.fromRGBO(145, 210, 255, 0.2)),
-                  shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                  shape: WidgetStateProperty.all(RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(50))),
                 ),
                 onPressed: () {},
@@ -52,10 +52,10 @@ class TopBarWidget extends StatelessWidget {
             padding: const EdgeInsets.all(20.0),
             child: TextButton(
               style: ButtonStyle(
-                padding: MaterialStateProperty.all(EdgeInsets.all(12)),
-                overlayColor: MaterialStateProperty.all(
+                padding: WidgetStateProperty.all(EdgeInsets.all(12)),
+                overlayColor: WidgetStateProperty.all(
                     Color.fromRGBO(145, 210, 255, 0.2)),
-                shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                shape: WidgetStateProperty.all(RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(25))),
               ),
               onPressed: () {},
@@ -69,10 +69,10 @@ class TopBarWidget extends StatelessWidget {
             padding: const EdgeInsets.all(20.0),
             child: TextButton(
               style: ButtonStyle(
-                padding: MaterialStateProperty.all(EdgeInsets.all(12)),
-                overlayColor: MaterialStateProperty.all(
+                padding: WidgetStateProperty.all(EdgeInsets.all(12)),
+                overlayColor: WidgetStateProperty.all(
                     Color.fromRGBO(145, 210, 255, 0.2)),
-                shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                shape: WidgetStateProperty.all(RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(25))),
               ),
               onPressed: () {
@@ -92,10 +92,10 @@ class TopBarWidget extends StatelessWidget {
             padding: const EdgeInsets.all(20.0),
             child: TextButton(
               style: ButtonStyle(
-                padding: MaterialStateProperty.all(EdgeInsets.all(12)),
-                overlayColor: MaterialStateProperty.all(
+                padding: WidgetStateProperty.all(EdgeInsets.all(12)),
+                overlayColor: WidgetStateProperty.all(
                     Color.fromRGBO(145, 210, 255, 0.2)),
-                shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                shape: WidgetStateProperty.all(RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(25))),
               ),
               onPressed: () {},

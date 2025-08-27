@@ -2,14 +2,14 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:wow_goldbuy_v3/constants.dart';
-import 'package:wow_goldbuy_v3/responcive_design.dart';
-import 'package:wow_goldbuy_v3/screens/main/main_screen.dart';
+import 'package:wow_gold_buy_v3/constants.dart';
+import 'package:wow_gold_buy_v3/responsive_design.dart';
+import 'package:wow_gold_buy_v3/screens/main/main_screen.dart';
 
 class SecondSection extends StatelessWidget {
   const SecondSection({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +26,7 @@ class SecondSection extends StatelessWidget {
               fit: BoxFit.cover,
             ),
             Container(
-              color: bgColor.withOpacity(0.36),
+              color: bgColor.withValues(alpha: 0.36),
             ),
             Padding(
               padding: Responsive.isDesktop(context)

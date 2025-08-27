@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:wow_goldbuy_v3/constants.dart';
-import 'package:wow_goldbuy_v3/screens/main/components/buy_form_widget.dart';
+import 'package:wow_gold_buy_v3/constants.dart';
+import 'package:wow_gold_buy_v3/screens/main/components/buy_form_widget.dart';
 
 class BuySectionWidget extends StatelessWidget {
   const BuySectionWidget({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -73,8 +73,8 @@ class BuySectionWidget extends StatelessWidget {
 
 class FourthContainer extends StatelessWidget {
   const FourthContainer({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -189,8 +189,8 @@ class FourthContainer extends StatelessWidget {
 
 class ThirdContainer extends StatelessWidget {
   const ThirdContainer({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -262,8 +262,8 @@ class ThirdContainer extends StatelessWidget {
 
 class SecondContainer extends StatelessWidget {
   const SecondContainer({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -326,8 +326,8 @@ class SecondContainer extends StatelessWidget {
 
 class FirstContainer extends StatelessWidget {
   const FirstContainer({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

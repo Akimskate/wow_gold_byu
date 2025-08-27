@@ -1,6 +1,6 @@
 {
-    "name": "wow_goldbuy_v3",
-    "short_name": "wow_goldbuy_v3",
+    "name": "wow_gold_buy_v3",
+    "short_name": "wow_gold_buy_v3",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

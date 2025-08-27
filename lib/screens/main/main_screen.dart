@@ -1,19 +1,19 @@
 // ignore_for_file: prefer_const_constructors, sized_box_for_whitespace, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
-import 'package:wow_goldbuy_v3/constants.dart';
-import 'package:wow_goldbuy_v3/responcive_design.dart';
-import 'package:wow_goldbuy_v3/screens/main/components/buy_section_widget.dart';
-import 'package:wow_goldbuy_v3/screens/main/components/description_widget.dart';
-import 'package:wow_goldbuy_v3/screens/main/components/second_section.dart';
-import 'package:wow_goldbuy_v3/screens/main/components/side_menu.dart';
-import 'package:wow_goldbuy_v3/screens/main/components/top_bar_widget.dart';
+import 'package:wow_gold_buy_v3/constants.dart';
+import 'package:wow_gold_buy_v3/responsive_design.dart';
+import 'package:wow_gold_buy_v3/screens/main/components/buy_section_widget.dart';
+import 'package:wow_gold_buy_v3/screens/main/components/description_widget.dart';
+import 'package:wow_gold_buy_v3/screens/main/components/second_section.dart';
+import 'package:wow_gold_buy_v3/screens/main/components/side_menu.dart';
+import 'package:wow_gold_buy_v3/screens/main/components/top_bar_widget.dart';
 
 // TODO: fix the scrolling
 GlobalKey dataKey = GlobalKey();
 
 class MainScreen extends StatefulWidget {
-  const MainScreen({Key? key}) : super(key: key);
+  const MainScreen({super.key});
 
   @override
   State<MainScreen> createState() => _MainScreenState();
